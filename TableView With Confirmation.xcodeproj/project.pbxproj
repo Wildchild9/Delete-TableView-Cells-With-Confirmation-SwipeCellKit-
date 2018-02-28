@@ -1,0 +1,419 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		37CDB0712089AD7610F891FD /* Pods_TableView_With_Confirmation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DC84D2308E1413A9143BCEB /* Pods_TableView_With_Confirmation.framework */; };
+		C28C43FC20463C9D0086F80F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28C43FB20463C9D0086F80F /* AppDelegate.swift */; };
+		C28C440120463C9D0086F80F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C28C43FF20463C9D0086F80F /* Main.storyboard */; };
+		C28C440320463C9D0086F80F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C28C440220463C9D0086F80F /* Assets.xcassets */; };
+		C28C440620463C9D0086F80F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C28C440420463C9D0086F80F /* LaunchScreen.storyboard */; };
+		C28C440E20463CC80086F80F /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C28C440D20463CC80086F80F /* TableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		49D560204708C59C5585A318 /* Pods-TableView With Confirmation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableView With Confirmation.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TableView With Confirmation/Pods-TableView With Confirmation.debug.xcconfig"; sourceTree = "<group>"; };
+		7DC84D2308E1413A9143BCEB /* Pods_TableView_With_Confirmation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TableView_With_Confirmation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C28C43F820463C9D0086F80F /* TableView With Confirmation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TableView With Confirmation.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C28C43FB20463C9D0086F80F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C28C440020463C9D0086F80F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C28C440220463C9D0086F80F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C28C440520463C9D0086F80F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C28C440720463C9D0086F80F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C28C440D20463CC80086F80F /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		E4D9187F35A6F561971EECEE /* Pods-TableView With Confirmation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TableView With Confirmation.release.xcconfig"; path = "Pods/Target Support Files/Pods-TableView With Confirmation/Pods-TableView With Confirmation.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C28C43F520463C9D0086F80F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37CDB0712089AD7610F891FD /* Pods_TableView_With_Confirmation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11FFB1B0FF6B3319E11EB2DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				49D560204708C59C5585A318 /* Pods-TableView With Confirmation.debug.xcconfig */,
+				E4D9187F35A6F561971EECEE /* Pods-TableView With Confirmation.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		18688127DE0DD875EB9ABB4E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7DC84D2308E1413A9143BCEB /* Pods_TableView_With_Confirmation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C28C43EF20463C9D0086F80F = {
+			isa = PBXGroup;
+			children = (
+				C28C43FA20463C9D0086F80F /* TableView With Confirmation */,
+				C28C43F920463C9D0086F80F /* Products */,
+				11FFB1B0FF6B3319E11EB2DA /* Pods */,
+				18688127DE0DD875EB9ABB4E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C28C43F920463C9D0086F80F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C28C43F820463C9D0086F80F /* TableView With Confirmation.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C28C43FA20463C9D0086F80F /* TableView With Confirmation */ = {
+			isa = PBXGroup;
+			children = (
+				C28C43FB20463C9D0086F80F /* AppDelegate.swift */,
+				C28C43FF20463C9D0086F80F /* Main.storyboard */,
+				C28C440D20463CC80086F80F /* TableViewController.swift */,
+				C28C440220463C9D0086F80F /* Assets.xcassets */,
+				C28C440420463C9D0086F80F /* LaunchScreen.storyboard */,
+				C28C440720463C9D0086F80F /* Info.plist */,
+			);
+			path = "TableView With Confirmation";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C28C43F720463C9D0086F80F /* TableView With Confirmation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C28C440A20463C9D0086F80F /* Build configuration list for PBXNativeTarget "TableView With Confirmation" */;
+			buildPhases = (
+				713246DCB1A62EFEB961AB66 /* [CP] Check Pods Manifest.lock */,
+				C28C43F420463C9D0086F80F /* Sources */,
+				C28C43F520463C9D0086F80F /* Frameworks */,
+				C28C43F620463C9D0086F80F /* Resources */,
+				9F012E87FA8DD8845AAFEDAA /* [CP] Embed Pods Frameworks */,
+				FE361AC26A3D94306E27AC93 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TableView With Confirmation";
+			productName = "TableView With Confirmation";
+			productReference = C28C43F820463C9D0086F80F /* TableView With Confirmation.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C28C43F020463C9D0086F80F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Noah Wilder";
+				TargetAttributes = {
+					C28C43F720463C9D0086F80F = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = C28C43F320463C9D0086F80F /* Build configuration list for PBXProject "TableView With Confirmation" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C28C43EF20463C9D0086F80F;
+			productRefGroup = C28C43F920463C9D0086F80F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C28C43F720463C9D0086F80F /* TableView With Confirmation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C28C43F620463C9D0086F80F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C28C440620463C9D0086F80F /* LaunchScreen.storyboard in Resources */,
+				C28C440320463C9D0086F80F /* Assets.xcassets in Resources */,
+				C28C440120463C9D0086F80F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		713246DCB1A62EFEB961AB66 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TableView With Confirmation-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F012E87FA8DD8845AAFEDAA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-TableView With Confirmation/Pods-TableView With Confirmation-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/SwipeCellKit/SwipeCellKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwipeCellKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TableView With Confirmation/Pods-TableView With Confirmation-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE361AC26A3D94306E27AC93 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TableView With Confirmation/Pods-TableView With Confirmation-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C28C43F420463C9D0086F80F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C28C43FC20463C9D0086F80F /* AppDelegate.swift in Sources */,
+				C28C440E20463CC80086F80F /* TableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C28C43FF20463C9D0086F80F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C28C440020463C9D0086F80F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C28C440420463C9D0086F80F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C28C440520463C9D0086F80F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C28C440820463C9D0086F80F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C28C440920463C9D0086F80F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C28C440B20463C9D0086F80F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49D560204708C59C5585A318 /* Pods-TableView With Confirmation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JPFSXG2FT6;
+				INFOPLIST_FILE = "TableView With Confirmation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noahwilder.TableView-With-Confirmation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C28C440C20463C9D0086F80F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4D9187F35A6F561971EECEE /* Pods-TableView With Confirmation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JPFSXG2FT6;
+				INFOPLIST_FILE = "TableView With Confirmation/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.noahwilder.TableView-With-Confirmation";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C28C43F320463C9D0086F80F /* Build configuration list for PBXProject "TableView With Confirmation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C28C440820463C9D0086F80F /* Debug */,
+				C28C440920463C9D0086F80F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C28C440A20463C9D0086F80F /* Build configuration list for PBXNativeTarget "TableView With Confirmation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C28C440B20463C9D0086F80F /* Debug */,
+				C28C440C20463C9D0086F80F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C28C43F020463C9D0086F80F /* Project object */;
+}

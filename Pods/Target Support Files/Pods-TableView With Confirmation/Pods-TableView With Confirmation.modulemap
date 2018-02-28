@@ -1,0 +1,6 @@
+framework module Pods_TableView_With_Confirmation {
+  umbrella header "Pods-TableView With Confirmation-umbrella.h"
+
+  export *
+  module * { export * }
+}
